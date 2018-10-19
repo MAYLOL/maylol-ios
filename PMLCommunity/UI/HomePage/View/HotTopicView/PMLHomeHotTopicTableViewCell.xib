@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="121" id="KGk-i7-Jjw" customClass="PMLHomeHotTopicTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="364" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="364" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wX7-ut-tuU">
+                        <rect key="frame" x="15" y="10" width="96.5" height="58.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="wX7-ut-tuU" secondAttribute="height" multiplier="104:63" id="W6U-tb-eAv"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEr-vj-N7d" customClass="PMLFreeButton">
+                        <rect key="frame" x="121.5" y="44.5" width="30" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <state key="normal" title="34k">
+                            <color key="titleColor" red="0.47058823529411764" green="0.47058823529411764" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cdc-g9-RZ0">
+                        <rect key="frame" x="15" y="78.5" width="334" height="1"/>
+                        <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="vrF-ao-LuS"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="同为塑造靓丽媚眼，开内眼角和开外眼角有什么区别？" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfp-aX-0Rh">
+                        <rect key="frame" x="136.5" y="7" width="202.5" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="de2-CI-We4" customClass="PMLFreeButton">
+                        <rect key="frame" x="176.5" y="44.5" width="30" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <state key="normal" title="236">
+                            <color key="titleColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_topic_icon_topic" translatesAutoresizingMaskIntoConstraints="NO" id="EvB-NF-ng1">
+                        <rect key="frame" x="121.5" y="10" width="9" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="98t-Ce-Jv4"/>
+                            <constraint firstAttribute="width" constant="9" id="hKv-dp-N8y"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="bfp-aX-0Rh" secondAttribute="trailing" constant="25" id="06d-Uc-gZx"/>
+                    <constraint firstItem="TEr-vj-N7d" firstAttribute="leading" secondItem="EvB-NF-ng1" secondAttribute="leading" id="2hh-dR-LqX"/>
+                    <constraint firstAttribute="trailing" secondItem="cdc-g9-RZ0" secondAttribute="trailing" constant="15" id="DFr-25-xYB"/>
+                    <constraint firstItem="wX7-ut-tuU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="GEu-Uh-ux6"/>
+                    <constraint firstItem="bfp-aX-0Rh" firstAttribute="leading" secondItem="wX7-ut-tuU" secondAttribute="trailing" constant="25" id="LKa-W9-sNZ"/>
+                    <constraint firstItem="wX7-ut-tuU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Lee-tb-8IL"/>
+                    <constraint firstItem="bfp-aX-0Rh" firstAttribute="top" secondItem="wX7-ut-tuU" secondAttribute="top" constant="-3" id="OJV-ob-kt2"/>
+                    <constraint firstItem="de2-CI-We4" firstAttribute="bottom" secondItem="wX7-ut-tuU" secondAttribute="bottom" id="XJv-L6-6Sl"/>
+                    <constraint firstItem="cdc-g9-RZ0" firstAttribute="top" secondItem="wX7-ut-tuU" secondAttribute="bottom" constant="10" id="Y2b-Go-fAi"/>
+                    <constraint firstItem="EvB-NF-ng1" firstAttribute="top" secondItem="wX7-ut-tuU" secondAttribute="top" id="aTb-fB-Vg0"/>
+                    <constraint firstAttribute="bottom" secondItem="cdc-g9-RZ0" secondAttribute="bottom" id="dPL-Dr-r5L"/>
+                    <constraint firstItem="de2-CI-We4" firstAttribute="leading" secondItem="TEr-vj-N7d" secondAttribute="trailing" constant="25" id="hP9-1e-WgJ"/>
+                    <constraint firstItem="EvB-NF-ng1" firstAttribute="leading" secondItem="wX7-ut-tuU" secondAttribute="trailing" constant="10" id="jdh-wn-5v4"/>
+                    <constraint firstItem="cdc-g9-RZ0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="sxG-Mp-s0y"/>
+                    <constraint firstItem="TEr-vj-N7d" firstAttribute="bottom" secondItem="wX7-ut-tuU" secondAttribute="bottom" id="uuV-li-79y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentedBtn" destination="de2-CI-We4" id="VQm-nq-WTq"/>
+                <outlet property="hotNumberBtn" destination="TEr-vj-N7d" id="O1z-f3-Cg5"/>
+                <outlet property="titleLabel" destination="bfp-aX-0Rh" id="jnY-DC-BNC"/>
+                <outlet property="topicImageView" destination="wX7-ut-tuU" id="UjO-0F-H7I"/>
+            </connections>
+            <point key="canvasLocation" x="30" y="-117"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home_topic_icon_topic" width="9" height="13"/>
+    </resources>
+</document>

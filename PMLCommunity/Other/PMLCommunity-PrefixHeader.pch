@@ -1,0 +1,49 @@
+//
+//  PMLCommunity-PrefixHeader.pch
+//  PMLCommunity
+//
+//  Created by panchuang on 2018/8/13.
+//  Copyright © 2018年 MAYLOL. All rights reserved.
+//
+
+#ifndef PMLCommunity_PrefixHeader_pch
+#define PMLCommunity_PrefixHeader_pch
+
+//共用类
+#import "PMLMacros.h"
+#import "PMLTools.h"
+#import "WHDebugToolManager.h"
+#import "UIView+PMLViewFrom.h"
+#import "UIFont+PMLFont.h"
+#import "UIColor+PMLColor.h"
+#import "UIImage+PMLImage.h"
+#import "NSArray+PMLArray.h"
+#import "PMLConst.h"
+#import "PMLUserUtility.h"
+#import "PMLViewModel.h"
+#import "PMLNetRequestType.h"
+
+#import "Masonry.h"
+#import "MJExtension.h"
+#import <MJRefresh/MJRefresh.h>
+#import "UIImageView+WebCache.h"
+#import "IQKeyboardManager.h"
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <pop/POP.h>
+
+#import "PMLMaskView.h"
+#import "PMLBaseView.h"
+#import "PMLBaseLabel.h"
+#import "PMLBaseModel.h"
+#import "PMLBaseButton.h"
+#import "PMLFreeButton.h"
+#import "PMLCommitButton.h"
+#import "PMLBaseTextField.h"
+#import "PMLBaseTableView.h"
+#import "PMLBaseScrollView.h"
+#import "PMLBaseCollectionView.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PMLCommunity_PrefixHeader_pch */
